@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Banik Bakery Ltd.</title>
+  <meta name="description" content="About Banik Bakery Ltd., an importer and distributor serving Canadian retailers." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">BB</span>
+      <span>Banik Bakery Ltd.</span>
+    </a>
+    <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+  <main class="section container">
+    <h1>About Us</h1>
+    <div class="grid grid-2">
+      <div class="card">
+        <h2>Who we are</h2>
+        <p>Banik Bakery Ltd. is a Canadian importer and distributor supplying retailers and distributors nationwide. Despite the name, we specialize beyond baked goods—focusing on reliable sourcing and logistics for high-demand categories.</p>
+        <p class="muted">We currently handle coffee capsules, canned pineapple products, and seasonal fresh pomegranates.</p>
+      </div>
+      <div class="card">
+        <h2>How we work</h2>
+        <ul>
+          <li>Direct relationships with vetted manufacturers</li>
+          <li>Regulatory-compliant labeling and documentation</li>
+          <li>Flexible MOQs, pallet & container programs</li>
+          <li>Responsive customer support and forecasting</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <section class="section">
+    <div class="container card">
+      <h2>Certifications & Documents</h2>
+      <p class="muted">On request: product specs, COA, SDS (where applicable), and origin certificates for current lots.</p>
+    </div>
+  </section>
+
+
+<footer>
+  <div class="container footer-grid">
+    <p>© <span id="year"></span> Banik Bakery Ltd. All rights reserved.</p>
+    <p>Made with ♥ in Canada • <span class="badge">Importer & Distributor</span></p>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — Banik Bakery Ltd.</title>
+  <meta name="description" content="Coffee, canned pineapples, and seasonal pomegranates supplied across Canada." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">BB</span>
+      <span>Banik Bakery Ltd.</span>
+    </a>
+    <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+  <main class="section container">
+    <h1>Products</h1>
+    <p class="muted">Overview of our current product lines. Specs may vary by lot and origin; request a spec sheet for current inventory.</p>
+
+    <section id="coffee" class="section card">
+      <h2>Coffee Capsules</h2>
+      <div class="grid grid-3">
+        <div class="product">
+          <img src="assets/img/coffee-1.jpg" alt="Coffee capsules assorted" />
+          <div>
+            <strong>Assorted Blends (Nespresso* Original compatible)</strong>
+            <p class="small">Cases: 10x10 pods • Roasts: espresso, lungo, decaf • Private label options on request</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/coffee-2.jpg" alt="Hotel and office coffee program" />
+          <div>
+            <strong>Hospitality & Office</strong>
+            <p class="small">Programs for hotels and offices including machines and starter kits.</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/coffee-3.jpg" alt="Retail ready coffee capsules" />
+          <div>
+            <strong>Retail-Ready</strong>
+            <p class="small">UPC/EAN, bilingual packaging and shelf-ready cartons available.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pineapples" class="section card">
+      <h2>Canned Pineapples</h2>
+      <div class="grid grid-3">
+        <div class="product">
+          <img src="assets/img/pineapple-1.jpg" alt="Pineapple slices in syrup" />
+          <div>
+            <strong>Slices, Tidbits, Chunks</strong>
+            <p class="small">A10 / P16 formats • Brix: light/heavy syrup or juice • Consistent cut size.</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/pineapple-2.jpg" alt="Foodservice palletized cans" />
+          <div>
+            <strong>Foodservice</strong>
+            <p class="small">Pallet quantities with pallet configuration details and COAs available.</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/pineapple-3.jpg" alt="Retail labeled pineapple cans" />
+          <div>
+            <strong>Retail</strong>
+            <p class="small">Shelf-ready retail packs and private label programs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pomegranates" class="section card">
+      <h2>Pomegranates (Seasonal)</h2>
+      <div class="grid grid-3">
+        <div class="product">
+          <img src="assets/img/pom-1.jpg" alt="Fresh pomegranates" />
+          <div>
+            <strong>Fresh Export</strong>
+            <p class="small">Graded by size and color • Packed for Canadian import standards.</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/pom-2.jpg" alt="Pomegranate pallets" />
+          <div>
+            <strong>Logistics</strong>
+            <p class="small">Cold-chain handling and seasonal availability calendar.</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="assets/img/pom-3.jpg" alt="Retail display" />
+          <div>
+            <strong>Retail Programs</strong>
+            <p class="small">Display-ready cartons with clear PLU and bilingual labels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+<footer>
+  <div class="container footer-grid">
+    <p>© <span id="year"></span> Banik Bakery Ltd. All rights reserved.</p>
+    <p>Made with ♥ in Canada • <span class="badge">Importer & Distributor</span></p>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
