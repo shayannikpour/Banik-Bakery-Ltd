@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,23 +8,25 @@
   <meta name="description" content="Contact Banik Bakery Ltd. for product inquiries, quotes, or partnerships." />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
 
-<nav>
-  <div class="container nav-wrap">
-    <a class="logo" href="index.html">
-      <span class="logo-mark">BB</span>
-      <span>Banik Bakery Ltd.</span>
-    </a>
-    <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
-    <div class="menu">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+  <nav>
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.png" alt="Banik Bakery Ltd." class="logo-img">
+        <span>Banik Bakery Ltd.</span>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
   <main class="section container">
@@ -31,7 +34,8 @@
     <div class="grid grid-2">
       <div class="card">
         <h2>Get in touch</h2>
-        <p class="muted">Tell us what you need—volume, timeline, destination—and we’ll get back with current pricing and availability.</p>
+        <p class="muted">Tell us what you need—volume, timeline, destination—and we’ll get back with current pricing and
+          availability.</p>
         <form id="contact-form">
           <label for="name">Name</label>
           <input id="name" name="name" placeholder="Your name" required />
@@ -43,15 +47,16 @@
           <input id="phone" name="phone" placeholder="+1 (___) ___-____" />
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" placeholder="What products are you interested in? Quantities? Timeframe?" required></textarea>
+          <textarea id="message" name="message" rows="6"
+            placeholder="What products are you interested in? Quantities? Timeframe?" required></textarea>
 
           <button class="btn" type="submit">Send</button>
-          <p class="small">No backend required — this will open your email client with a prefilled message to <strong>info@banikbakery.ca</strong>.</p>
+          <!-- <p class="small">No backend required — this will open your email client with a prefilled message to <strong>info@banikbakery.ca</strong>.</p> -->
         </form>
       </div>
       <div class="card">
         <h2>Details</h2>
-        <p><strong>Email:</strong> <a href="mailto:info@banikbakery.ca">info@banikbakery.ca</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@banikbakery.com">info@banikbakery.com</a></p>
         <p><strong>Service area:</strong> Canada-wide</p>
         <p class="muted">Prefer WhatsApp? Add in your message and we'll follow up there.</p>
       </div>
@@ -59,14 +64,15 @@
   </main>
 
 
-<footer>
-  <div class="container footer-grid">
-    <p>© <span id="year"></span> Banik Bakery Ltd. All rights reserved.</p>
-    <p>Made with ♥ in Canada • <span class="badge">Importer & Distributor</span></p>
-  </div>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</footer>
-<script src="assets/js/main.js"></script>
+  <footer>
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Banik Bakery Ltd. All rights reserved.</p>
+      <p>Made with ♥ in Canada • <span class="badge">Importer & Distributor</span></p>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
