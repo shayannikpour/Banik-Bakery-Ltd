@@ -208,7 +208,7 @@ nav {
 }
 
 .btn-outline {
-  background: transparent;
+  /* background: transparent; */
   border: 2px solid var(--white);
   color: var(--white);
 }
@@ -325,4 +325,31 @@ label {
 .small {
   font-size: 0.9rem;
   color: var(--muted);
+}
+
+
+
+
+.btn,
+.btn:hover,
+.btn-outline,
+.btn-outline:hover {
+  text-decoration: none !important;
+}
+
+a {
+  color: var(--brand-2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+/* Add left spacing only for the text at the top of the products page */
+main.section.container>h1,
+main.section.container>p {
+  margin-left: 1rem;
+  /* adjust the value to your liking (e.g., 1.5rem or 2rem) */
 }
